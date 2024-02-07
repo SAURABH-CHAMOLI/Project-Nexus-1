@@ -1,0 +1,125 @@
+body{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif; 
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(21, 132, 236);
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    height:516px;
+    width:400px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+}
+.heading{
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    font-weight: 800;
+    color: black;
+    margin-bottom: 10px;
+}
+input{
+    height:42px;
+    width:350px;
+    padding: 2px 2px 2px 10px;
+    border: none;
+    border:1px solid rgb(196, 192, 192);
+    color:rgb(77, 74, 74);
+    border-radius: 5px;
+    margin-bottom: 18px;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+} 
+
+.member{
+    margin: 10px 10px 7px 10px;
+    color:rgb(94, 91, 91);
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:rgb(21, 132, 236)
+}
+.btn{
+    height:46px;
+    width:350px;
+    background-color: rgb(21, 132, 236);
+    color:white;
+    font-size: 17px;
+    border: none;
+    border-radius: 8px;
+}
+.signup:hover,.login:hover{
+    border:2px solid rgb(21, 132, 236);
+    color:rgb(21, 132, 236)
+}
+.login{
+    margin-top: 20px;
+}
+.login i {
+    position: relative;
+    right:72px
+}
+.facebook{
+    background-color: rgb(71, 82, 235);
+}
+.facebook:hover{
+    border: 2px solid rgb(71, 82, 235);
+    color:rgb(71, 82, 235)
+}
+.btn:hover{
+    cursor: pointer;
+    background: transparent;
+}
+.google{
+    background: transparent;
+    border: 1px solid rgb(155, 148, 148);
+    color:grey
+}
+.google:hover{
+    background-color: grey;
+    color:white;
+}
+.forgot:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 430px) {
+    .container{
+        height:400px;
+        width:300px;  
+    }
+    input{
+        height:28px;
+        width:240px;  
+        font-size: 15px;
+    }
+    .member {
+        margin:5px 5px 10px 5px;
+        font-size: 14px;
+    }
+    .btn{
+        height:28px;
+        width:240px;
+        font-size: 14px;
+    }
+    .login i {
+        position: relative;
+        right:38px
+    }
+}
